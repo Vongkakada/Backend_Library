@@ -87,11 +87,8 @@ const port = process.env.PORT || 3001;
 // --- 🔴 CORS Configuration ---
 // Define allowed origins based on environment
 const allowedOrigins = [
-    'https://bannalydigital.netlify.app', // Frontend deployed on Netlify
-    // Add other deployed frontend URLs here if any
-    // You might also want to include the backend's own URL if it serves anything directly to the browser,
-    // although it's less common for an API-only backend.
-    // 'https://backend-library-uoqs.onrender.com' // Backend deployed URL (can be helpful for debugging)
+    'https://bannalydigital.netlify.app', 
+
 ];
 
 const corsOptions = {
